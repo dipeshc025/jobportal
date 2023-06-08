@@ -1,0 +1,306 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:#5289c8;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    color:black;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url(images/bg.jpg);
+    background-size: 50%;
+    padding: 100px 0;
+    text-align: center;
+
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: wheat;
+  }
+  
+  #hero p{
+    font-size: larger;
+  }
+  .btn {
+    display: inline-block;
+    background-color:#70a1ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .btn:hover{
+    background-color: #1e90ff;
+  }
+  
+  /* Jobs section styles */
+  #jobs {
+    background: url(images/sbg.avif);
+    background-size: 1500px;
+    padding: 40px 0;
+   
+  }
+  #jobs h2{
+    text-align: center;
+    color: white;
+
+  }
+  .job {
+    background-color: #f2f2f2;
+    width: 600px;
+    padding: 20px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .job h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:#5289c8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /*css for job  */
+  .job-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.job-card p {
+    margin-bottom: 10px;
+}
+
+.job-card .company {
+    font-weight: bold;
+}
+
+.job-card .location {
+    color: #777;
+}
+
+.job-card .salary {
+    font-weight: bold;
+    color: #0f9d58;
+}
+
+.job-card .description {
+    color: #555;
+}
+
+.job-card .apply-btn {
+    display: inline-block;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.job-card .apply-btn:hover {
+    background-color: #3367d6;
+}
+
+/* Css for jobform */
+.job-form {
+  max-width: 400px;
+  background-color: #4b866c;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.job-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.job-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.job-form input[type="text"],
+.job-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.job-form textarea {
+  height: 120px;
+}
+
+.job-form input[type="submit"] {
+  display: inline-block;
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.job-form input[type="submit"]:hover {
+  background-color: #3367d6;
+}
+
+ /* CSS styling for the About page */
+
+#about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #1e90ff;
+}
+
+#about h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#about h2 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#about ul {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  color: #555;
+}
+
+#about ul li {
+  margin-bottom: 5px;
+}
+
+#about a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+
+
+/* css for login */
+.login-form {
+  max-width: 300px;
+  background-color: #43a3a0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.login-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+  display: inline-block;
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #3367d6;
+}
